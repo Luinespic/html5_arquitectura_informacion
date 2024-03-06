@@ -132,7 +132,37 @@
     <footer>
       <section id="contacto">
         <address></address>
-        <form action="" method="post">name / email / asunto / mensaje</form>
+        <form method="post" target="_self" name="form_contacto">
+          <input
+            type="text"
+            name="Nombre"
+            id="nombre"
+            required="yes"
+            placeholder="Tu nombre"
+          />
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            required="yes"
+            placeholder="Tu email"
+          />
+          <input
+            type="text"
+            name="Asunto"
+            id="asunto"
+            required="yes"
+            placeholder="Asunto"
+          />
+          <textarea
+            name="Comentarios"
+            id="comentarios"
+            cols="20"
+            rows="1"
+            placeholder="Escribe tu consulta"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
       </section>
       copyright
     </footer>
